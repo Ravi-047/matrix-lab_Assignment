@@ -1,0 +1,28 @@
+.pair_heading_desk {
+  color: #f7f9f9;
+  font-family: Work Sans;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.75rem;
+}
+
+.pair_heading_mob {
+  display: none;
+}
+
+@media (max-width: 998px) {
+  .pair_heading_desk {
+    display: none;
+  }
+  .pair_heading_mob {
+    display: block;
+    color: #f7f9f9;
+    font-family: Work Sans;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.75rem;
+    margin-top: 1rem;
+  }
+}
